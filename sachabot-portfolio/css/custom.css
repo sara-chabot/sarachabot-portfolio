@@ -1,0 +1,244 @@
+
+
+p {
+    font-family: new-hero, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    line-height: 2em;
+}
+
+b {
+    color:#324ab2;
+}
+i {
+    font-family: new-hero, sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+li {
+    font-family: new-hero, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    line-height: 2em;
+}
+h1 {
+    font-family: new-hero, sans-serif;
+    font-size: 45px;
+    font-weight: 200;
+    font-style: normal;
+}
+h2 {
+    font-family: new-hero,sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+h3 {
+    font-family: new-hero,sans-serif;
+    font-weight: 400;
+    font-style: bold;
+
+}
+
+h5 {
+    font-family: new-hero,sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.nav {
+    font-family: new-hero, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    line-height: 2em;
+}
+
+a:visited {
+        color:black;
+        text-decoration: none;
+}
+a:hover {
+    color: black;
+}
+.nav-link {
+        display: block;
+        padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+        font-size: var(--bs-nav-link-font-size);
+        font-weight: var(--bs-nav-link-font-weight);
+        color: var(--bs-nav-link-color);
+        text-decoration: none;
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+      }
+
+/*nav*/
+.panel1 {
+    padding: 40px 40px 20px 40px;
+    background-color: aliceblue;
+    font-family: new-hero, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+.justify-content-end {
+    grid-column: 3/13;
+    justify-content: flex-end !important;
+  }
+.row {
+    background-color: aliceblue;
+    padding: 50px;
+}
+/*
+.panel2-left {
+    grid-column: 1/7;
+    color:black;
+    font-size:30px;
+    background-color: aliceblue;
+    line-height: 2em;
+}
+.panel2-right {
+    grid-column:7/13;
+    text-align: center;
+    background-color: aliceblue;
+}
+/*
+
+/*header one*/
+
+.panel-1 {
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: center center;
+    background-size: cover;
+    background-image:url("images/newyork.jpeg");
+    background-color:rgba(0, 0, 0, 0.5);
+    background-blend-mode:darken;
+}
+.row-1 {
+    text-align: center;
+    padding: 100px;
+}
+
+/*UX project*/
+
+.row-2 {
+    padding: 80px;
+    background-color: white;
+}
+.box1 {
+    background-color: aliceblue;
+}
+.box2 {
+    background-color: aliceblue;
+}
+.row-3{
+    display:grid;
+    background-color: white;
+}
+.box3 {
+    grid-column:1/7;
+    background-color: white;
+    padding:100px 40px 100px 40px;
+    text-align: center;
+}
+.box4 {
+    grid-column:7/13;
+    background-color: white;
+    padding:100px 200px 100px 40px;
+}
+.row-4 {
+    display: grid;
+}
+.box5 {
+    grid-column: 1/7;
+    background-color: white;
+    padding:100px 40px 100px 200px;
+}
+.box6 {
+    grid-column: 7/13;
+    background-color: white;
+    padding:100px 40px 100px 40px;
+    text-align: center;
+}
+
+.row-5{
+    display:grid;
+    padding-bottom: 50px;
+    background-color: white;
+}
+.box7 {
+    grid-column: 1/7;
+    background-color: white;
+    padding:100px 40px 100px 40px;
+    text-align: center;
+}
+.box8 {
+    grid-column: 7/13;
+    background-color: white;
+    padding:100px 200px 100px 40px;
+}
+.row-6 {
+    display:grid;
+}
+.box9 {
+    grid-column: 1/7;
+    background-color: white;
+    padding:100px 40px 100px 200px;
+}
+.box10 {
+    grid-column: 7/13;
+    background-color: white;
+    padding:100px 40px 100px 40px;
+    text-align: center;
+}
+
+
+/*header two*/
+
+.row-11 {
+    text-align: center;
+    padding: 100px 100px 50px 100px;
+}
+/*Graphic Design and Advertising Campaign*/
+
+.row-7 {
+    display:grid;
+}
+.row-8 {
+    display:grid;
+    padding-bottom: 50px;
+}
+.box11 {
+    grid-column: 1/7;
+    background-color: white;
+    padding:100px 40px 100px 40px;
+    text-align: center;
+}
+.box12 {
+    grid-column: 7/13;
+    background-color: white;
+    padding:100px 200px 100px 40px;
+}
+
+/*footer*/
+.row-10 {
+    background-color: aliceblue;
+    padding:40px;
+    font-family: new-hero, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    text-align: center;
+}
+/*end footer*/
+
+/*graphic design*/
+
+.container {
+    display:grid;
+    grid-template-columns:repeat(12, 1fr); 
+}
+
+.yardsign {
+    grid-column:6/10;
+    padding:50px;
+    padding:0 500px 0 500px;
+    object-fit: cover;
+}
